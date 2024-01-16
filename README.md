@@ -14,8 +14,7 @@ To fix theses issues these measures have been taken:
 
 This module has been tested on an iPad Air with M1 CPU. (no clue about iPhones or anything else :) 
 
-
 # Hints
 
 * You can start Foundry in Full screen if you add it to the home screen by clicking on the share button in the browser.
-* Sometimes the viewport is bugged nevertheless you can fix this by tapping in and out of the app
+* Sometimes the viewport is bugged nevertheless you can fix this by tapping in and out of the app.

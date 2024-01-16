@@ -1,5 +1,5 @@
 Hooks.on("renderSettings", (app, html, data) => {
-    const button = $(`<button id="openLibrary"><i class="fas fa-bug"></i>iOS Fix</button>`);
+    const button = $(`<button data-tooltip="Set the performance mode to low."><i class="fas fa-bug"></i>iOS Fix</button>`);
     const location = html.find("#settings-game")
     location.append(button);
     button.on('click',async() => { 

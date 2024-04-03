@@ -10,6 +10,8 @@ Currently the iPad shows two major issues:
 To fix theses issues these measures have been taken:
 
 * It adds a button "iOS Fix" to the settings directory. Clicking it sets the performance mode of foundry to low, which allows to render the canvas without the black overlay. You only have to click this button once on iPads. (the Button is visible even if the black overlay hides everything).
+* ![grafik](https://github.com/Plushtoast/ipadviewportfix/assets/44941845/d4819d24-82d4-466f-9e2c-edc9d1b3b750)
+
 * It adds a css viewport fix to render the entire canvas
 
 This module has been tested on an iPad Air with M1 CPU. (no clue about iPhones or anything else :) 

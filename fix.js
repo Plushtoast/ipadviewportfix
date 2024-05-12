@@ -3,7 +3,8 @@ Hooks.on("renderSettings", (app, html, data) => {
     const location = html.find("#settings-game")
     location.append(button);
     button.on('click',async() => { 
-        await game.settings.set("core","performanceMode", 0) 
+        await game.settings.set("core","performanceMode", 0);
+        alert("Performance mode set to low.");
         window.location.reload();
     })
 })

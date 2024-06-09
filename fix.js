@@ -4,6 +4,10 @@ Hooks.on("renderSettings", (app, html, data) => {
     location.append(button);
     button.on('click',async() => { 
         await game.settings.set("core","performanceMode", 0) 
-        window.location.reload();
+        ui.notifications.warn("Performance mode set to low. Reloading the page to apply changes.")
+        setTimeout(() => {
+            window.location.reload();
+        }, 1000)
+        
     })
 })

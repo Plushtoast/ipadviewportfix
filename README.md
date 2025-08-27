@@ -1,3 +1,6 @@
+**Please note that the module is now compatible with v13 but not tested yet**
+
+
 # Summary
 
 This (quick & dirty) bugfix module is intended to provide basic compatibility for iPads to Foundry 11.
@@ -13,6 +16,8 @@ To fix theses issues these measures have been taken:
 * ![grafik](https://github.com/Plushtoast/ipadviewportfix/assets/44941845/d4819d24-82d4-466f-9e2c-edc9d1b3b750)
 
 * It adds a css viewport fix to render the entire canvas
+
+* It removes backdrop filter from some elements, as that seems to impede performance in safari browsers
 
 This module has been tested on an iPad Air with M1 CPU. (no clue about iPhones or anything else :) 
 

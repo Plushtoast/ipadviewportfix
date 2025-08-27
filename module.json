@@ -1,10 +1,10 @@
 {
     "title": "iPad/iOS/Safari Viewport Fix",
     "description": "This (quick & dirty) bugfix module is intended to provide compatibility for iPads to Foundry 11. It adds a button \"iOS Fix\" to the settings directory. Clicking it sets the performance mode of foundry to low, which allows to render the canvas without the black overlay. You only have to click this button once on iPads. It adds a css viewport fix to render the entire canvas",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "url": "https://github.com/Plushtoast/ipadviewportfix",
     "manifest": "https://raw.githubusercontent.com/Plushtoast/ipadviewportfix/main/module.json",
-    "download": "https://github.com/Plushtoast/ipadviewportfix/releases/download/1.0.5/ipadviewportfix-1.0.5.zip",
+    "download": "https://github.com/Plushtoast/ipadviewportfix/releases/download/1.0.6/ipadviewportfix-1.0.6.zip",
     "languages": [
     ],
     "esmodules": [
@@ -22,7 +22,7 @@
       }
     ],
     "compatibility": {
-      "minimum": "11",
+      "minimum": "13",
       "verified": "13",
       "maximum": "13"
     }

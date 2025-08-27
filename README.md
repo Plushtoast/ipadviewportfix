@@ -3,7 +3,7 @@
 
 # Summary
 
-This (quick & dirty) bugfix module is intended to provide basic compatibility for iPads to Foundry 11.
+This (quick & dirty) bugfix module is intended to provide basic compatibility for iPads to Foundry 11-13.
 
 Currently the iPad shows two major issues:
 
